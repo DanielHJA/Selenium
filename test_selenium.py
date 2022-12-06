@@ -22,7 +22,7 @@ class TestSelenium:
         self.driver.close()
 
     def setup_token(self):
-        os.environ['GH_TOKEN'] = "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"
+        os.environ['GH_TOKEN'] = ""
 
     def setup_driver(self):
         self.driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
